@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Agricultura Familiar e Sustentável</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<a href="#conteudo" class="skip-link">
+Ir para o conteúdo principal
+</a>
+
+<header class="header">
+
+<div class="container nav">
+
+<div class="logo">
+🌱 AgroEduca 2.0
+</div>
+
+<nav>
+
+<ul class="menu">
+
+<li><a href="#diagnostico">Diagnóstico</a></li>
+
+<li><a href="#impactos">Impactos</a></li>
+
+<li><a href="#solucoes">Soluções</a></li>
+
+<li><a href="#quiz">Quiz</a></li>
+
+<li><a href="#faq">FAQ</a></li>
+
+</ul>
+
+</nav>
+
+<div class="accessibility-controls">
+
+<button id="increaseFont" aria-label="Aumentar fonte">
+A+
+</button>
+
+<button id="decreaseFont" aria-label="Diminuir fonte">
+A-
+</button>
+
+<button id="contrastBtn" aria-label="Alto contraste">
+◐
+</button>
+
+<button id="themeBtn" aria-label="Modo escuro">
+🌙
+</button>
+
+</div>
+
+</div>
+
+</header>
+
+<main id="conteudo">
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div class="container hero-content">
+
+<h1>
+Agricultura Familiar e Sustentável:
+Produzindo Alimentos e Preservando o Futuro
+</h1>
+
+<p>
+Conheça a importância da agricultura familiar para a alimentação,
+economia e conservação ambiental.
+</p>
+
+<div class="hero-buttons">
+
+<a href="#diagnostico" class="btn primary">
+Explorar Conteúdo
+</a>
+
+<a href="#solucoes" class="btn secondary">
+Ver Soluções
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- INDICADORES -->
+
+<section class="section">
+
+<div class="container">
+
+<h2>Panorama da Agricultura Familiar</h2>
+
+<div id="statsGrid" class="stats-grid"></div>
+
+</div>
+
+</section>
+
+<!-- GALERIA -->
+
+<section class="gallery section">
+
+<div class="container">
+
+<h2>Galeria Educativa</h2>
+
+<div class="gallery-grid">
+
+<figure class="gallery-card">
+
+<img
+src="familia.png"
+alt="Produção agrícola familiar"
+loading="lazy">
+
+<figcaption>
+Produção de alimentos saudáveis.
+</figcaption>
+
+</figure>
+
+<figure class="gallery-card">
+
+<img
+src="sus.png"
+alt="Horta sustentável"
+loading="lazy">
+
+<figcaption>
+Práticas agrícolas sustentáveis.
+</figcaption>
+
+</figure>
+
+<figure class="gallery-card">
+
+<img
+src="agua.png"
+alt="Campo agrícola"
+loading="lazy">
+
+<figcaption>
+Conservação dos recursos naturais.
+</figcaption>
+
+</figure>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- DIAGNÓSTICO -->
+
+<section id="diagnostico" class="section">
+
+<div class="container">
+
+<h2>Diagnóstico</h2>
+
+<p>
+Conheça os principais desafios e oportunidades da agricultura familiar.
+</p>
+
+<div id="diagnosticCards" class="card-grid"></div>
+
+</div>
+
+</section>
+
+<!-- IMPACTOS -->
+
+<section id="impactos" class="section">
+
+<div class="container">
+
+<h2>Impactos da Agricultura Familiar</h2>
+
+<div class="tabs">
+
+<div class="tab-buttons">
+
+<button class="tab-btn active" data-tab="social">
+Social
+</button>
+
+<button class="tab-btn" data-tab="economico">
+Econômico
+</button>
+
+<button class="tab-btn" data-tab="ambiental">
+Ambiental
+</button>
+
+<button class="tab-btn" data-tab="cultural">
+Cultural
+</button>
+
+<button class="tab-btn" data-tab="tecnologico">
+Tecnológico
+</button>
+
+</div>
+
+<div id="tabContent" class="tab-content"></div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- LINHA DO TEMPO -->
+
+<section class="section">
+
+<div class="container">
+
+<h2>Do Campo à Mesa</h2>
+
+<div class="timeline">
+
+<div class="timeline-item">
+🌱 Plantio
+</div>
+
+<div class="timeline-item">
+💧 Cultivo
+</div>
+
+<div class="timeline-item">
+🚜 Colheita
+</div>
+
+<div class="timeline-item">
+📦 Distribuição
+</div>
+
+<div class="timeline-item">
+🍎 Consumo
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- QUIZ -->
+
+<section id="quiz" class="section">
+
+<div class="container">
+
+<h2>Quiz Interativo</h2>
+
+<p>
+Teste seus conhecimentos.
+</p>
+
+<div class="quiz-card">
+
+<div class="quiz-progress">
+
+<div id="progress"></div>
+
+</div>
+
+<p id="question"></p>
+
+<div id="answers"></div>
+
+<button id="nextQuestion" class="btn primary">
+
+Próxima Pergunta
+
+</button>
+
+<p id="feedback"></p>
+
+<p id="scoreDisplay">
+
+Pontuação: 0
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CARROSSEL -->
+
+<section class="section">
+
+<div class="container">
+
+<h2>Casos de Sucesso</h2>
+
+<div class="carousel">
+
+<button id="prev">
+❮
+</button>
+
+<div class="carousel-content">
+
+<img id="carouselImage" src="" alt="">
+
+<h3 id="carouselTitle"></h3>
+
+<p id="carouselDescription"></p>
+
+</div>
+
+<button id="next">
+❯
+</button>
+
+</div>
+
+<div id="dots" class="dots"></div>
+
+</div>
+
+</section>
+
+<!-- SOLUÇÕES -->
+
+<section id="solucoes" class="section">
+
+<div class="container">
+
+<h2>Soluções Sustentáveis</h2>
+
+<div id="solutionsGrid" class="card-grid"></div>
+
+</div>
+
+</section>
+
+<!-- PESQUISA -->
+
+<section class="section">
+
+<div class="container">
+
+<h2>Pesquisar Conteúdo</h2>
+
+<input
+type="search"
+id="searchInput"
+class="search-input"
+placeholder="Digite uma palavra-chave...">
+
+</div>
+
+</section>
+
+<!-- FAQ -->
+
+<section id="faq" class="section">
+
+<div class="container">
+
+<h2>Perguntas Frequentes</h2>
+
+<div id="faqContainer"></div>
+
+</div>
+
+</section>
+
+<!-- CERTIFICADO -->
+
+<section id="certificateSection" class="section hidden">
+
+<div class="container">
+
+<div class="certificate">
+
+<h2>
+🏆 Certificado
+</h2>
+
+<p>
+Parabéns! Você concluiu o Quiz de Agricultura Familiar Sustentável.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- REFLEXÃO -->
+
+<section class="reflection">
+
+<div class="container">
+
+<h2>
+Como você pode apoiar a agricultura sustentável?
+</h2>
+
+<p>
+Valorize produtores locais, reduza desperdícios e incentive práticas sustentáveis.
+</p>
+
+<a href="#" class="btn primary">
+
+Assumir Compromisso
+
+</a>
+
+</div>
+
+</section>
+
+</main>
+
+<footer class="footer">
+
+<div class="container">
+
+<h3>
+Sobre o Projeto
+</h3>
+
+<p>
+Plataforma educativa sobre Agricultura Familiar e Sustentável.
+</p>
+
+<p>
+Versão 2.0
+</p>
+
+<p>
+© 2026
+</p>
+
+</div>
+
+</footer>
+
+<button id="topBtn">
+⬆
+</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
